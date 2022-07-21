@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--半径缩放比例-->
+    <attr name="radiusScale" format="float" />
+    <!--文字拐角间距-->
+    <attr name="textCornerMargin" format="dimension" />
+    <!--饼图指线长度-->
+    <attr name="pieLineWidth" format="dimension" />
+    <!--饼图文字大侠-->
+    <attr name="pieTextSize" format="dimension" />
+    <!--选中偏移量-->
+    <attr name="checkedOffset" format="dimension" />
+    <declare-styleable name="PieChartView">
+        <attr name="radiusScale" />
+        <attr name="textCornerMargin" />
+        <attr name="pieLineWidth" />
+        <attr name="pieTextSize" />
+        <attr name="checkedOffset" />
+    </declare-styleable>
+</resources>
